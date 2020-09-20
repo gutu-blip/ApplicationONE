@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context="com.speca.application1.RegisterActivity">
+
+    <TextView
+        android:id="@+id/header_Signup"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:text="Sign up"
+        android:textSize="60dp"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#06FFDD"
+        android:paddingLeft="14dp"
+        />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="37dp"
+        android:hint="Email"
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        android:layout_below="@id/header_Signup"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffff"
+        />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/register_email"
+        android:layout_marginTop="30dp"
+        android:defaultFocusHighlightEnabled="false"
+        android:hint="Password"
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        android:inputType="textPassword"
+        android:textColorHint="#ffff" />
+
+    <EditText
+        android:id="@+id/register_confirmpass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:layout_below="@id/register_password"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        android:textColorHint="#ffff"
+        android:textColorHighlight="#ffff"
+        />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Confirm"
+        android:textSize="20dp"
+        android:layout_below="@id/register_confirmpass"
+        android:textAllCaps="false"
+        android:background="@drawable/format_button"
+        android:textColor="#ffff"
+        />
+
+
+    <Button
+        android:id="@+id/register_login_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/register_btn"
+        android:layout_marginTop="29sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/format_button"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/register_login_btn"
+        android:id="@+id/register_progressbar"
+        android:indeterminateTint="@android:color/white"
+        android:indeterminate="true"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

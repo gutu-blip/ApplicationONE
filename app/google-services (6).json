@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345325171403",
+    "firebase_url": "https://speca-825d4.firebaseio.com",
+    "project_id": "speca-825d4",
+    "storage_bucket": "speca-825d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345325171403:android:a9b0f286bdf207600c614e",
+        "android_client_info": {
+          "package_name": "com.speca.application1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345325171403-7m4m23etqodasrk9vlubgsf87ned9v3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe7Iw136PtXaX0FXr6K1KseMUPI-YmD5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345325171403-7m4m23etqodasrk9vlubgsf87ned9v3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

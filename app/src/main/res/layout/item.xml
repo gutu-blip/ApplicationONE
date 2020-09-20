@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Titletv"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Title"
+        />
+
+        <com.google.android.exoplayer2.ui.PlayerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/exoplayer_view"
+        android:layout_margin="3dp"
+        app:resize_mode="fill">
+        </com.google.android.exoplayer2.ui.PlayerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_grey"
+                android:clickable="true"
+                android:id="@+id/like_btn"
+                />
+
+           <!--5 <ImageButton
+                android:id="@+id/download_button_viewholder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_download_36"
+                android:layout_marginLeft="80dp"
+                android:padding="5dp"
+                />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
